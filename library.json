@@ -1,0 +1,22 @@
+{
+  "name": "ApexBridge",
+  "version": "1.0.0",
+  "description": "A lightweight library for connecting ESP devices to Oracle APEX RESTful APIs.",
+  "keywords": ["esp8266", "esp32", "oracle", "apex", "rest"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AtaCanYmc/ApexBridge.git"
+  },
+  "authors": [
+    {
+      "name": "Ata Can Yaymacı",
+      "email": "atacanymc@gmail.com",
+      "maintainer": true
+    }
+  ],
+  "dependencies": {
+    "bblanchon/ArduinoJson": "^6.19.4"
+  },
+  "frameworks": "arduino",
+  "platforms": ["espressif8266", "espressif32"]
+}
